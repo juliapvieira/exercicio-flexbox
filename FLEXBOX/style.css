@@ -1,0 +1,137 @@
+body {
+background-color: antiquewhite;
+
+}
+
+/* FLEXBOX 
+
+    justify-content:
+    Define o alinhamento dos itens ao longo do eixo principal do container flexível.
+
+    Flex-start: 
+    Alinha os itens no início do container flexível. A ESQUERDA
+
+    Flex-end: 
+    Alinha os itens no final do container flexível. Á DIREITA
+
+    Center: 
+    Alinha os itens no centro do container flexível. AO CENTRO
+
+    Space-between: Distribui os itens igualmente, com o primeiro item no início e o último item no final do container flexível. ESPAÇO ENTRE OS ITENS
+
+    Space-around: 
+    Distribui os itens igualmente, com espaço ao redor de cada item. ESPAÇO AO REDOR
+
+    align-items:
+    Define o alinhamento dos itens ao longo do eixo transversal do container flexível.
+    align-items: flex-start; Alinha os itens no início do eixo transversal. (Topo)
+    align-items: flex-end; Alinha os itens no final do eixo transversal. (Base  
+*/
+
+/* FLEX DIRECTION
+    ROW: Alinha os itens em uma linha horizontal. (Padrão)
+    ROW-REVERSE: Alinha os itens em uma linha horizontal, mas na ordem inversa.
+    column: Alinha os itens em uma coluna vertical.
+    column-reverse: Alinha os itens em uma coluna vertical, mas na ordem inversa.
+
+*/
+
+.container {
+    justify-content:flex-start;
+    display: flex;
+    /* align-items: center; */
+    background-color: #d12798;
+    widht: 500px;
+   height: 500px;
+}
+
+.container1 {
+    justify-content:center;
+    display: flex;
+    /* align-items: center; */
+    background-color: #d12798;
+    widht: 500px;
+   height: 500px;
+}
+
+.container2 {
+    justify-content:flex-end;
+    display: flex;
+    /* align-items: center; */
+    background-color: #d12798;
+    widht: 500px;
+   height: 500px;
+}
+
+.container3 {
+    justify-content:space-between;
+    display: flex;
+    /* align-items: center; */
+    background-color: #d12798;
+    widht: 500px;
+   height: 500px;
+}
+
+.container4 {
+    justify-content:space-around;
+    display: flex;
+    /* align-items: center; */
+    background-color: #d12798;
+    widht: 500px;
+   height: 500px;
+}
+
+.container5 {
+    justify-content:space-around;
+    display: flex;
+    /* align-items: center; */
+    background-color: #d12798;
+    widht: 500px;
+    height: 500px;
+}
+
+.container6 {
+    justify-content:center;
+    display: flex;
+    /* align-items: center; */
+    background-color: #d12798;
+    widht: 500px;
+    height: 500px;
+}
+
+.container7 {
+display: flex;
+    justify-content:space-between;
+    /* align-items: center; */
+    background-color: #d12798;
+    widht: 500px;
+   height: 500px;
+}
+
+.container8 {
+    flex-direction: column;
+    justify-content:space-between;
+ 
+    /* align-items: center; */
+    background-color: #d12798;
+    widht: 500px;
+    height： 500px;
+}
+
+.container9 {
+    flex-direction: column;
+    justify-content:space-around;
+    display: flex;
+    /* align-items： center; */
+    background-color： #d12798；
+    widht： 500px；
+    height： 500px；
+}
+
+
+.box {
+    background-color: #f5f5f5;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;            
+}
